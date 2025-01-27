@@ -27,9 +27,9 @@ function generujVetu(pocetSlov) {
 function generujOdstavec() {
     let odstavec = "";
     for (let i = 0; i < 10; i++) {
-        odstavec += generujVetu(Math.floor(Math.random() * 6 + 5)) + " "; // Generujeme větu mezi 5 a 10 slovy
+        odstavec += generujVetu(Math.floor(Math.random() * 6 + 5)) + " "; 
     }
-    return odstavec.trim(); // Odstraníme případnou nadbytečnou mezeru na konci
+    return odstavec.trim(); 
 }
 
 console.log(generujOdstavec());
